@@ -1,0 +1,2 @@
+document.getElementById('year').textContent=new Date().getFullYear();
+document.querySelector('.menu').addEventListener('click',()=>{const n=document.querySelector('.nav nav');n.style.display=n.style.display==='flex'?'none':'flex';n.style.position='absolute';n.style.right='4%';n.style.top='68px';n.style.flexDirection='column';n.style.background='white';n.style.padding='15px';n.style.borderRadius='12px';n.style.boxShadow='0 10px 30px rgba(0,0,0,.12)'});
