@@ -1,5 +1,5 @@
 # সবুজ দিগন্ত মাল্টিমিডিয়া — Website
-ফাইল: index.html, style.css, script.js
+ফাইল: style.css, script.js
 
 ব্যবহার:
 1. তিনটি ফাইল একই ফোল্ডারে রাখুন।
