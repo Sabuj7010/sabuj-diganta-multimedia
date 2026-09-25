@@ -1,88 +1,145 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>সবুজ দিগন্ত মাল্টিমিডিয়া</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b5b45">
+  <meta name="description" content="সবুজ দিগন্ত মাল্টিমিডিয়া — Leadership & Digital Multimedia">
+  <title>সবুজ দিগন্ত মাল্টিমিডিয়া | Leadership</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="সবুজ দিগন্ত মাল্টিমিডিয়া">
+      <img src="assets/logo.png" alt="সবুজ দিগন্ত মাল্টিমিডিয়া লোগো">
+      <span><b>সবুজ দিগন্ত</b><small>মাল্টিমিডিয়া</small></span>
+    </a>
+    <button class="menu-btn" aria-label="মেনু" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#home">হোম</a>
+      <a href="#leadership">নেতৃত্ব</a>
+      <a href="#about">আমাদের সম্পর্কে</a>
+      <a href="#contact">যোগাযোগ</a>
+    </nav>
+  </header>
 
-    <!-- Header Section -->
-    <header>
-        <div class="logo">
-            <h2>সবুজ দিগন্ত</h2>
-            <span>মাল্টিমিডিয়া</span>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#about">আমাদের সম্পর্কে</a></li>
-                <li><a href="#leadership">নেতৃত্ব</a></li>
-                <li><a href="#contact">যোগাযোগ</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
+  <main id="home">
     <section class="hero">
-        <h1>ডিজিটাল উদ্ভাবন ও আধুনিক সমাধানের দিগন্ত</h1>
-        <p>আমরা প্রদান করি প্রফেশনাল মাল্টিমিডিয়া ও ডিজিটাল প্রযুক্তি সেবা।</p>
-    </section>
-
-    <!-- Leadership Section -->
-    <section id="leadership" class="leadership-section">
-        <span class="sub-title">LEADERSHIP</span>
-        <h2>কোম্পানির নেতৃত্ব</h2>
-
-        <div class="leadership-cards">
-            <!-- Chairman & CEO -->
-            <div class="card">
-                <div class="avatar">SD</div>
-                <div class="card-info">
-                    <span class="role">Chairman & CEO</span>
-                    <h3>সবুজ</h3>
-                    <p>প্রতিষ্ঠানের নেতৃত্ব, কৌশল ও সামগ্রিক পরিচালনার দায়িত্বে।</p>
-                </div>
-            </div>
-
-            <!-- Managing Director -->
-            <div class="card">
-                <div class="avatar">MD</div>
-                <div class="card-info">
-                    <span class="role">পরবর্তী নিয়োগ</span>
-                    <h3>Managing Director</h3>
-                    <p>পদটি ভবিষ্যতে যোগ্য ব্যক্তিকে নিয়োগ দেওয়া হবে।</p>
-                </div>
-            </div>
+      <div class="hero-copy">
+        <span class="eyebrow">SABUJ DIGANTA MULTIMEDIA</span>
+        <h1>ডিজিটাল গল্পের <em>নতুন দিগন্ত</em></h1>
+        <p>সৃজনশীলতা, প্রযুক্তি ও আধুনিক মিডিয়াকে একসাথে নিয়ে এগিয়ে চলা একটি প্রফেশনাল মাল্টিমিডিয়া প্ল্যাটফর্ম।</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#leadership">নেতৃত্ব দেখুন</a>
+          <a class="btn ghost" href="tel:01872707010">📞 সরাসরি কল</a>
         </div>
+      </div>
+      <div class="hero-mark">
+        <div class="orb"><img src="assets/logo.png" alt=""></div>
+        <div class="floating-card"><strong>৫</strong><span>Leadership Positions</span></div>
+      </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
-        <span class="sub-title">CONTACT</span>
-        <h2>যোগাযোগ</h2>
-
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3>সবুজ দিগন্ত মাল্টিমিডিয়া</h3>
-                <p><strong>ইমেইল:</strong> mrboka7010@gmail.com</p>
-                <p><strong>ফোন:</strong> +880 1872707010</p>
-                <p><strong>ঠিকানা:</strong> বাংলাদেশ</p>
-            </div>
-
-            <form class="contact-form">
-                <input type="text" placeholder="আপনার নাম" required>
-                <input type="email" placeholder="ইমেইল" required>
-                <textarea placeholder="আপনার বার্তা" rows="4" required></textarea>
-                <button type="submit">বার্তা পাঠান</button>
-            </form>
+    <section class="section leadership" id="leadership">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">LEADERSHIP</span>
+          <h2>উচ্চ পর্যায়ের নেতৃত্ব</h2>
         </div>
+        <p>প্রতিষ্ঠানের কৌশল, পরিচালনা, সৃজনশীলতা ও প্রযুক্তির জন্য নির্ধারিত মূল নেতৃত্বের ভূমিকা।</p>
+      </div>
+
+      <article class="chairman-card">
+        <div class="chairman-photo">
+          <img src="assets/chairman.png" alt="Chairman-এর প্রফাইল ছবি">
+          <span class="photo-badge">CHAIRMAN</span>
+        </div>
+        <div class="chairman-info">
+          <span class="role">CHAIRMAN & CEO</span>
+          <h3>এমডি সবুজ হালদার</h3>
+          <p>প্রতিষ্ঠানের সামগ্রিক নেতৃত্ব, কৌশলগত পরিকল্পনা, ব্র্যান্ড ভিশন ও পরিচালনার দায়িত্বে।</p>
+          <div class="contact-row">
+            <a href="tel:01872707010">📞 +880 1872707010</a>
+            <a href="mailto:mrboka7010@gmail.com">✉️ Email</a>
+          </div>
+          <button class="profile-btn" data-profile="chairman">সম্পূর্ণ প্রোফাইল →</button>
+        </div>
+      </article>
+
+      <div class="leadership-grid">
+        <article class="leader-card" data-profile="md">
+          <div class="icon">MD</div><span>MANAGING DIRECTOR</span>
+          <h3>Managing Director</h3>
+          <p>পদটি বর্তমানে শূন্য। ভবিষ্যতে যোগ্য প্রার্থী নিয়োগ করা হবে।</p>
+          <button class="text-btn">প্রোফাইল দেখুন →</button>
+        </article>
+        <article class="leader-card" data-profile="coo">
+          <div class="icon">COO</div><span>CHIEF OPERATING OFFICER</span>
+          <h3>COO</h3>
+          <p>পদটি বর্তমানে শূন্য। ভবিষ্যতে যোগ্য প্রার্থী নিয়োগ করা হবে।</p>
+          <button class="text-btn">প্রোফাইল দেখুন →</button>
+        </article>
+        <article class="leader-card" data-profile="creative">
+          <div class="icon">CM</div><span>CREATIVE & MULTIMEDIA</span>
+          <h3>Creative & Multimedia Director</h3>
+          <p>পদটি বর্তমানে শূন্য। ভবিষ্যতে যোগ্য প্রার্থী নিয়োগ করা হবে।</p>
+          <button class="text-btn">প্রোফাইল দেখুন →</button>
+        </article>
+        <article class="leader-card" data-profile="tech">
+          <div class="icon">CTO</div><span>TECHNOLOGY & DIGITAL</span>
+          <h3>Chief Technology & Digital Officer</h3>
+          <p>পদটি বর্তমানে শূন্য। ভবিষ্যতে যোগ্য প্রার্থী নিয়োগ করা হবে।</p>
+          <button class="text-btn">প্রোফাইল দেখুন →</button>
+        </article>
+      </div>
     </section>
 
-    <footer>
-        <p>&copy; ২০২৬ সবুজ দিগন্ত মাল্টিমিডিয়া। সর্বস্বত্ব সংরক্ষিত।</p>
-    </footer>
+    <section class="section about" id="about">
+      <div class="about-panel">
+        <span class="eyebrow">ABOUT US</span>
+        <h2>একটি ব্র্যান্ড, একটি দিগন্ত</h2>
+        <p>সবুজ দিগন্ত মাল্টিমিডিয়া আধুনিক ডিজিটাল সেবা, কনটেন্ট, মিডিয়া ও প্রযুক্তিকে একটি সমন্বিত প্ল্যাটফর্মে উপস্থাপন করার লক্ষ্য নিয়ে এগিয়ে যাচ্ছে।</p>
+        <div class="stats">
+          <div><strong>01</strong><span>Vision</span></div>
+          <div><strong>05</strong><span>Leadership</span></div>
+          <div><strong>∞</strong><span>Possibilities</span></div>
+        </div>
+      </div>
+      <div class="quote">
+        <span>“</span>
+        <p>সৃজনশীল চিন্তা থেকে বাস্তব ডিজিটাল সমাধান—আমাদের প্রতিটি পদক্ষেপ ভবিষ্যতের দিকে।</p>
+        <small>— Chairman, Sabuj Diganta Multimedia</small>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="section contact" id="contact">
+      <div class="contact-card">
+        <div>
+          <span class="eyebrow">CONTACT</span>
+          <h2>যোগাযোগ করুন</h2>
+          <p>প্রশ্ন, কাজের প্রস্তাব বা সহযোগিতার জন্য সরাসরি যোগাযোগ করতে পারেন।</p>
+        </div>
+        <div class="contact-actions">
+          <a href="tel:01872707010" class="btn primary">📞 +880 1872707010</a>
+          <a href="mailto:mrboka7010@gmail.com" class="btn ghost">✉️ mrboka7010@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/logo.png" alt="">
+    <span>© <span id="year"></span> সবুজ দিগন্ত মাল্টিমিডিয়া</span>
+  </footer>
+
+  <dialog id="profileDialog">
+    <button class="close" aria-label="বন্ধ করুন">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <script src="script.js"></script>
 </body>
 </html>
