@@ -5,7 +5,7 @@ document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>na
 document.getElementById('year').textContent=new Date().getFullYear();
 
 const profiles={
- chairman:{role:'CHAIRMAN & CEO',title:'এমডি সবুজ হালদার',text:'প্রতিষ্ঠানের সামগ্রিক নেতৃত্ব, কৌশলগত পরিকল্পনা, ব্র্যান্ড ভিশন ও পরিচালনার দায়িত্বে। যোগাযোগ: 01872707010 | mrboka7010@gmail.com'},
+ chairman:{role:'CHAIRMAN & CEO',title:'মোঃ সবুজ হালদার',text:'প্রতিষ্ঠানের সামগ্রিক নেতৃত্ব, কৌশলগত পরিকল্পনা, ব্র্যান্ড ভিশন ও পরিচালনার দায়িত্বে। যোগাযোগ: 01872707010 | mrboka7010@gmail.com'},
  md:{role:'MANAGING DIRECTOR',title:'Managing Director',text:'পদটি বর্তমানে শূন্য। ভবিষ্যতে যোগ্য ও উপযুক্ত প্রার্থী নিয়োগ করা হবে।'},
  coo:{role:'CHIEF OPERATING OFFICER',title:'COO',text:'পদটি বর্তমানে শূন্য। ভবিষ্যতে যোগ্য ও উপযুক্ত প্রার্থী নিয়োগ করা হবে।'},
  creative:{role:'CREATIVE & MULTIMEDIA',title:'Creative & Multimedia Director',text:'পদটি বর্তমানে শূন্য। ভবিষ্যতে যোগ্য ও উপযুক্ত প্রার্থী নিয়োগ করা হবে।'},
