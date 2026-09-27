@@ -1,0 +1,8 @@
+Sabuj Diganta secure site package
+1) Do NOT upload until Supabase key is inserted.
+2) Use SABUJ-DIGANTA-PUBLIC.html as index.html.
+3) Use admin.html as Admin Panel.
+4) Run supabase-schema.sql in Supabase SQL Editor.
+5) Put the Supabase Publishable/Anon Key in both HTML files.
+6) Add GitHub Pages redirect URL in Supabase Auth URL Configuration.
+7) Enable Google provider and use mrboka7010@gmail.com as the sole admin account.
